@@ -5,8 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
 </head>
+<style>
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap80 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:80%;
+    max-height:1000px;
+}
+.flex-wrap20 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:20%;
+    max-height:1000px;
+}
+.hdr {
+    width: calc(100% / 3)
+}
+.hdrp {
+    flex-basis: calc(100% / 3 - 5px);
+    max-height:300px;
+    margin:2px;
+}
+.hdrfull {
+    flex-basis:100%;
+    height: 150px;
+    margin:2px;
+}
+.bg-blue {
+    background-color:blue;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-purple {
+    background-color:purple;
+}
+.bg-green {
+    background-color:green;
+}
+.bg-red {
+    background:red;
+}
+.bg-white {
+    background-color:white;
+}
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color:white;
+}
+
+</Style>
 <body>
-    <h1>Hello!</h1>
+<div class="flex-wrap">
+    <a href="link" class="hdr text-center bg-blue text-white">Home</a>
+    <a href="link" class="hdr text-center bg-blue text-white">For-Sale</a>
+    <a href="link" class="hdr text-center bg-blue text-white">Contact</a>
+</div>
+<div class="flex-wrap">
+    <div class="flex-wrap80 bg-blue">
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+        <div class="hdrp bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut tempore sint officiis ipsa natus, magni nam, excepturi aliquam temporibus itaque quo iure recusandae repellat! Doloremque architecto quae esse minus.</div>
+    </div>
+    <div class="flex-wrap20 bg-red">
+        <div class="hdrfull bg-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam inventore. Accusantium debitis doloremque nulla omnis perspiciatis eius tenetur delectus quam eaque corrupti quis sequi fugit quas, unde vel odit.</div>
+        <div class="hdrfull bg-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam inventore. Accusantium debitis doloremque nulla omnis perspiciatis eius tenetur delectus quam eaque corrupti quis sequi fugit quas, unde vel odit.</div>
+        <div class="hdrfull bg-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam inventore. Accusantium debitis doloremque nulla omnis perspiciatis eius tenetur delectus quam eaque corrupti quis sequi fugit quas, unde vel odit.</div>
+        <div class="hdrfull bg-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam inventore. Accusantium debitis doloremque nulla omnis perspiciatis eius tenetur delectus quam eaque corrupti quis sequi fugit quas, unde vel odit.</div>
+        <div class="hdrfull bg-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam inventore. Accusantium debitis doloremque nulla omnis perspiciatis eius tenetur delectus quam eaque corrupti quis sequi fugit quas, unde vel odit.</div>
+        <div class="hdrfull bg-white"> </div>
+    </div>
+</div>
+<h1 class="bg-red text-center">Footer</h1>
 </body>
 </html>

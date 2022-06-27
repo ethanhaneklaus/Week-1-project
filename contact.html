@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
+
+</head>
+    <Style>
+        .flex-wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .hdr {
+            width: calc(100% / 3)
+        }
+        .bg-blue {
+            background-color:blue;
+        }
+        .bg-red{
+            background-color:red;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-white {
+            color:white;
+        }
+        .bg-purple {
+            background-color: purple;
+        }
+    </Style>
+<body>
+    <div class="flex-wrap">
+        <a href="link" class="hdr text-center bg-blue text-white">Home</a>
+        <a href="link" class="hdr text-center bg-blue text-white">For-Sale</a>
+        <a href="link" class="hdr text-center bg-blue text-white">Contact</a>
+    </div>
+    <div class="input-group flex-nowrap text-center bg-purple">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+    <div class="input-group flex-nowrap text-center bg-purple">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
+    </div>
+    <div class="input-group flex-nowrap text-center bg-purple">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
+    </div>
+    <div class="text-center bg-purple"><textarea name="Comment" id="comment" cols="150" rows="30"></textarea></div>
+    <div class="flex-wrap text-center">       
+    </div>
+    <div>
+        <input type="checkbox" id="complaint" name="Complaint">Complaint</input>
+        <input type="checkbox" id="question" name="Question">Question</input>     
+        <input type="checkbox" id="concern" name="Concern">Concern</input>
+        <input type="checkbox" id="bug" name="Bug">Bug</input>      
+        <input type="checkbox" id="suggestion" name="Suggestion">Suggestion</input>
+        <input type="submit" value="Submit"></input>
+    </div>
+    <h1 class="bg-red text-center">Footer</h1>
+</body>
+</html>
